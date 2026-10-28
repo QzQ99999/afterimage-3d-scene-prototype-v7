@@ -15,6 +15,6 @@ The user approved this exact V7 on 2026-10-28 for local preservation and one ini
 - Size: 57,717,911 bytes.
 - SHA-256: `0bb302d17b0d49db6dba8a8802ed3719bdec011f657c19f1e9db16a15e264016`.
 - Future changes to the HTML, original sources, assets, launcher, or deployment require new explicit user confirmation.
-- No deployment workflow or scheduled update is included. Automatic deployment access will be disabled after the initial publication is verified.
+- No deployment workflow or scheduled update is included. After the verified initial publication, Pages is set to workflow mode and repository GitHub Actions is disabled. The published page remains online; future publication requires explicit owner approval and manual re-enabling of the required settings.
 
 Three.js is used under the MIT license; see [THREE-LICENSE.txt](THREE-LICENSE.txt).
